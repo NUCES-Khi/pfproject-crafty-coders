@@ -1,0 +1,6 @@
+"Hello! Welcome to Healthbot. You are now using an AI tool which will assist you by looking at the problem you're facing, and 
+then it'll give you the solution on what should be done. Please note that that it is not an actual doctor, and it will only ASSIST 
+you. In case of serious medical emergencies, consult a doctor ASAP. Note: Before using any medication prescribed by the healthbot,
+                         carefully do your own research regarding the medicine. Thank you!"
+                                The Chatbot can access you with the following symptoms:
+                              | 1- Fever |  2- Cough  |  3- Headache | 4- Blood Pressure | 
