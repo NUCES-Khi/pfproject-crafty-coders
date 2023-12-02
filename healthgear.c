@@ -39,6 +39,35 @@ void fever_function(float temp){
     }	
 
     } // end of fever function 
+void cough_function(int coughOption, int age) {
+	FILE *fp = fopen("cough.txt", "r");
+	read_file(fp);
+	printf_CoughTable(CoughTable, Rows, Cols);
+	printf("Select the option: ");
+	scanf("%d",&coughOption);
+	if (coughOption == 1) {
+	FILE *fp = fopen("cough1.txt", "r");
+	read_file(fp);
+	}
+	else if (coughOption == 2) {
+	FILE *fp = fopen("cough2.txt", "r");
+	read_file(fp);
+	}
+	else if (coughOption == 3) {
+	FILE *fp = fopen("cough3.txt", "r");
+	read_file(fp);	
+	}
+	else if (coughOption == 4) {
+	char other[100];
+	printf("Enter the type of cough you are experiencing: ");
+	fgets(other, sizeof(other), stdin);
+	size_t len = strlen(other);
+	printf("I am sorry, I can not access this problem as it is very complex for me!");
+    } // ending the cough table options
+    else {
+    printf("You have entered an incorrect option!");
+    } 
+} // end of cough function 
 
 int main(int argc, char const *argv[]) {
 float temp;
