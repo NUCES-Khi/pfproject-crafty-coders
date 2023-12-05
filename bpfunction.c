@@ -34,7 +34,6 @@ void read_file(FILE *fp) {
                  if (bpup <= 115 && bpup > 80 && bpdown >= 40 && bpdown <= 75) {
                     FILE *fp = fopen("bp1.txt", "r");
                     read_file(fp);
-                    }
                 }//ending first if
 
 
@@ -47,7 +46,6 @@ void read_file(FILE *fp) {
                  else if (bpup <= 180 && bpup > 131 && bpdown > 90 && bpdown < 110) {
                     FILE *fp = fopen("bp2.txt", "r");
                     read_file(fp);
-                    }
                      }//ending second else if
 
 
@@ -61,7 +59,6 @@ void read_file(FILE *fp) {
                   if (bpup <= 110 && bpup > 75 && bpdown >= 35 && bpdown <= 70) {
                     FILE *fp = fopen("bp1.txt", "r");
                     read_file(fp);
-                    }
                      }//ending first if
 
 
@@ -74,7 +71,6 @@ void read_file(FILE *fp) {
                  else if(bpup <= 175 && bpup > 125 && bpdown > 85 && bpdown < 105) {
                     FILE *fp = fopen("bp2.txt", "r");
                     read_file(fp);
-                    }
                      }//ending second else if
 
 
