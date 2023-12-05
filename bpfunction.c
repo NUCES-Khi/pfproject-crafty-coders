@@ -12,7 +12,7 @@ void read_file(FILE *fp) {
 	char linebp[200];
 
 	fgets(linebp, 200, fp);
-	line[strcspn(linebp, "\n")] = 0;
+	linebp[strcspn(linebp, "\n")] = 0;
 
 	printf("%s\n", linebp);
 	}
