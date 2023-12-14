@@ -7,6 +7,31 @@
 #include <stdlib.h>
 #include <string.h>
 
+     //Making a function to print the table for headache identification
+     #define Row 6
+     #define Col 6
+
+      char HeadacheTable[Row][Col][200] = {
+         {"1. A tight band or vice around the head \n", 
+          "2. Quick jabs or jolts of severe pain around one of the eyes or at the temple"},
+         {"3. Pounding or pulsing pain usually in the forehead, the side of the head, or around the eyes \n", 
+          "4. A dull or throbbing pain in the temples or forehead and throughout the nose and cheekbone areas.\n"
+             "5. Other"
+         }
+         };
+
+           void print_HeadacheTable(char HeadacheTable[][Col][200], int rowa, int cola) {
+            int m, n;
+
+             for(m = 0; m < rowa; m++) {
+                 for(n = 0; n < cola; n++) {
+                     printf("%s\t", HeadacheTable[m][n]);
+                    } //closing first for
+                     printf("\n");
+                } //closing second for
+         }//function for headache table is completed
+
+
 void read_file(FILE *fp) {
 	while (!feof(fp)) {
 	char line[200];
@@ -17,6 +42,31 @@ void read_file(FILE *fp) {
 	printf("%s\n", line);
 	}
 }
+
+
+     //Making a function to print the table for cough identification
+     #define Rows 3
+     #define Cols 3
+
+      char CoughTable[Rows][Cols][20] = {
+         {"1. Dry Cough", "2. Paraoxysmal Cough",},
+         {"3. Wet Cough ", "4. Other"}
+         };
+
+           void print_CoughTable(char CoughTable[][Cols][20], int row, int col) {
+            int a, b;
+
+             for(a = 0; a < row; a++) {
+                 for(b = 0; b < col; b++) {
+                     printf("%s\t", CoughTable[a][b]);
+                    } //closing first for
+                     printf("\n");
+                } //closing second for
+         }//function for cough table is completed
+
+
+
+
 
 void fever_function(float temp){
 	if (temp< 90) {
