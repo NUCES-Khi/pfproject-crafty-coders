@@ -174,7 +174,7 @@ read_file(fp);
 printf("Which symptom do you want to access?(enter the number next to that symptom): ");
 scanf("%d",&option);
 switch(option) {
-case '1':
+case 1:
 // calling of the fever function
 printf("What is your body temperature? (incase you haven't measure it, measure it using thermometer for 5 mins): ");
 scanf("%f", &temp); 
