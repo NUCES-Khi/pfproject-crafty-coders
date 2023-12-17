@@ -1,3 +1,10 @@
+/*
+ *Programmers: Layyana Junaid, Alisha Zaidi, Zoha Ahmed 
+ *Description: Health Bot, a chatbot designed to access some symptoms and access the user
+ *
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
