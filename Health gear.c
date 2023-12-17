@@ -290,6 +290,8 @@ void BloodPressure(int bpup, int bpdown, char height){
                 printf("Invalid option selected.\n");
         }
 
+        printf("Thank you for consulting me as your health assistant!!\n");
+        printf("Feel free to consult again!!\n");
         printf("Do you want to get check on other symptoms? (y/n): \n");
         scanf(" %c", &c);
 
