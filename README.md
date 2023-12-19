@@ -13,9 +13,11 @@
 ##### 6- switch-statements.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Video Presentation:
-#### [uploaded in the repository.]
 ###### [https://www.canva.com/design/DAF3aCVXsKA/xSLKlRIwH6ivKXfHOjZKrg/watch?utm_content=DAF3aCVXsKA&utm_campaign=designshare&utm_medium=link&utm_source=editor]
-### 
+
+https://github.com/NUCES-Khi/pfproject-crafty-coders/assets/142867946/5b7530cc-9042-406f-a9b8-210cb9156dda
+
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # PROJECT REPORT:
