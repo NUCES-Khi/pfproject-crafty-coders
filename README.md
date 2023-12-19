@@ -1,4 +1,4 @@
-[Health Gear.pptx](https://github.com/NUCES-Khi/pfproject-crafty-coders/files/13715987/Health.Gear.pptx)### Project Proposal:
+### Project Proposal:
 #### What is a Heath Gear?
 ##### A Health Gear is a chatbot, which aims to access a user with health and medical needs.
 #### How will it work?
