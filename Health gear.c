@@ -183,6 +183,7 @@ void fever_function(int temp) {
         } 
 }
 
+//Blood pressure function declaration
 void BloodPressure(int bpup, int bpdown, char height){
   printf("If your height is between 0ft - 5ft, enter s.");
   printf("\n");
