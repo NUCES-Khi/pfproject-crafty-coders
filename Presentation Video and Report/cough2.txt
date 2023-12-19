@@ -1,0 +1,16 @@
+"You have Paraoxysmal Cough!
+This is commonly caused by Bordetella pertussis bacterium. 
+This bacterium infects the respiratory tract (your nose, throat, windpipe, and lungs). 
+This infection is extremely contagious.
+These coughing fits usually last 1 to 6 weeks but can last for up to 10 weeks.
+Paraoxysmal cough is a major symptom of tuburculosis so it is advised that 
+you immediately get yourself tested.
+The tests for identifying tuburculosis germs in the body are "TB skin test (TST)" 
+and "TB blood tests".
+If test results come back as "positive", immediately distance yourself from other people.
+Then, consult a doctor or go to a hospital and they will guide you on what should be done.
+If the test result is negative, you should do the following:
+-Keep your home free from irritants that can trigger coughing, 
+such as smoke, dust, and chemical fumes.
+-Different medications are prescribed for people of different ages."
+
