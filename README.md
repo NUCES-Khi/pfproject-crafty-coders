@@ -1,4 +1,4 @@
-### Project Proposal:
+# Project Proposal:
 #### What is a Heath Gear?
 ##### A Health Gear is a chatbot, which aims to access a user with health and medical needs.
 #### How will it work?
@@ -15,6 +15,7 @@
 ### Video Presentation:
 #### [uploaded in the repository.]
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # PROJECT REPORT:
 Proposal idea:Our project Health Gear is a chatbot which aims to access a user with health and medical needs.It recommends medicines according to the symptoms provided by the user.This idea was chosen by us to assist people who cannot afford expensive medical treatments.Our HealthBot aims to bridge this gap by providing cost-effective assistance and guidance.It also ensures that individuals can seek assistance whenever they need it, without having to schedule appointments or visit healthcare facilities during specific hours.Along with it our application will allow users to rapidly learn about the condition they are experiencing and how it may be handled.Our healthbot will work by displaying a series of options related to health which this chatbot can help with.The user will select the problem he is going through an based on those problems our Healthbot will provide home remedies and recommended medicines.
 
