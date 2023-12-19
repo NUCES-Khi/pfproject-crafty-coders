@@ -20,6 +20,16 @@ https://github.com/NUCES-Khi/pfproject-crafty-coders/assets/142867946/5b7530cc-9
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Code Video:
+
+
+
+https://github.com/NUCES-Khi/pfproject-crafty-coders/assets/142867946/d7f97d25-f507-4285-99d4-f35e1f2cb5e3
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # PROJECT REPORT:
 Proposal idea:Our project Health Gear is a chatbot which aims to provide a user with health and medical needs.It recommends medicines according to the symptoms provided by the user.This idea was chosen by us to assist people who cannot afford expensive medical treatments.Our HealthBot aims to bridge this gap by providing cost-effective assistance and guidance.It also ensures that individuals can seek assistance whenever they need it, without having to schedule appointments or visit healthcare facilities during specific hours.Along with it, the healthbkt will allow users to rapidly learn about the condition they are experiencing and how it may be handled. It will work by displaying a series of options related to health which this chatbot can help with.The user will select the problem he is going through and based on those problems our Healthbot will provide home remedies and recommended medicines.
 
