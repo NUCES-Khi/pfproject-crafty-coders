@@ -79,11 +79,12 @@ void Headache(int HeadacheOption) {
     printf("Which part of your head hurts?\n");
 
     // Calling the function
+    printf("\n");
     print_HeadacheTable(HeadacheTable, Row, Col);
 
     printf("Select the option: ");
     scanf("%d", &HeadacheOption);
-
+    printf("\n");
     if (HeadacheOption == 1) {
         FILE *fp = fopen("headache1.txt", "r");
         read_file(fp);
@@ -100,6 +101,7 @@ void Headache(int HeadacheOption) {
         // Letting the person input "other" option
         char headother[200];
         printf("Enter the other type of headache that you are having: ");
+        scanf("%s", headother);
         fgets(headother, sizeof(headother), stdin);
         size_t len = strlen(headother);
         printf("I'm sorry but this problem is too complex for me to handle as an AI healthbot.\n");
@@ -112,12 +114,12 @@ void Headache(int HeadacheOption) {
 #define Cols 4
 
 //printing cough table
-char CoughTable[Rows][Cols][20] = {
-                    {"1. Dry Cough", "2. Paraoxysmal Cough",},
-                    {"3. Wet Cough ", "4. Other"}
+char CoughTable[Rows][Cols][50] = {
+                    {"|1. Dry Cough|", "|2. Paraoxysmal Cough|",},
+                    {"|3. Wet Cough|", "|4. Other            |"}
                 };
 
-void print_CoughTable(char CoughTable[][Cols][20], int row, int col) {
+void print_CoughTable(char CoughTable[][Cols][50], int row, int col) {
                     int a, b;
                     for(a = 0; a < row; a++) {
                       for(b = 0; b < col; b++) {
@@ -131,9 +133,11 @@ void print_CoughTable(char CoughTable[][Cols][20], int row, int col) {
 void cough_function(int coughOption) {
         FILE *fp = fopen("cough.txt", "r");
         read_file(fp);
+        printf("\n");
         print_CoughTable(CoughTable, Rows, Cols);
         printf("Select the option: ");
         scanf("%d", &coughOption);
+        printf("\n");
         if (coughOption == 1) {
             FILE *fp = fopen("cough1.txt", "r");
             read_file(fp);
@@ -146,9 +150,10 @@ void cough_function(int coughOption) {
         } else if (coughOption == 4) {
             char other[100];
             printf("Enter the type of cough you are experiencing: ");
+            scanf("%s", other);
             fgets(other, sizeof(other), stdin);
             size_t len = strlen(other);
-            printf("I am sorry, I cannot assess this problem as it is very complex for me!");
+            printf("I am sorry, I cannot assess this problem as it is very complex for me!\n");
         } else {
             printf("You have entered an incorrect option!");
         }
@@ -183,7 +188,6 @@ void fever_function(int temp) {
         } 
 }
 
-//Blood pressure function declaration
 void BloodPressure(int bpup, int bpdown, char height){
   printf("If your height is between 0ft - 5ft, enter s.");
   printf("\n");
@@ -251,12 +255,11 @@ void BloodPressure(int bpup, int bpdown, char height){
     int main() 
     {
         
-        printf("Hello! Welcome to Healthbot. You are now using an AI tool which will assist you by looking at the problem you're facing\n"); 
+        printf("'Hello! Welcome to Healthbot. You are now using an AI tool which will assist you by looking at the problem you're facing\n"); 
         printf("then it will give you the solution on what should be done. Please note that that it is  an actual doctor,it will only assist you \n" );
         printf("In matters of serious medical emergencies, consult a doctor ASAP. Note: Before the use of any medication prescribed by the healthbot\n");
-        printf("carefully conduct your own research regarding the medicine. Thank you!\n");
-        printf("The Chatbot can access you with the following symptoms:\n");
-        printf( "| 1-Fever | 2-Cough | 3-Headache | 4-Blood Pressure | 5-Hospital Locations | \n" );
+        printf("carefully conduct your own research regarding the medicine. Thank you!'\n");
+        printf("\n");
     int temp;
     int option, coughOption, HeadacheOption;
     char c; // the check to stop the program
@@ -265,22 +268,29 @@ void BloodPressure(int bpup, int bpdown, char height){
     char height;
 
     do {
+        printf("The Chatbot can access you with the following symptoms:\n");
+        printf("\n");
+        printf( "| 1-Fever | 2-Cough | 3-Headache | 4-Blood Pressure | 5-Hospital Locations | \n" );
+        printf("\n");
         printf("Which symptom do you want to access? (Enter the number next to that symptom): ");
         scanf("%d", &option);
 
         switch (option) {
             case 1:
+                printf("\n");
                 printf("What is your body temperature? (In case you haven't measured it, measure it using a thermometer for 5 mins): ");
                 scanf("%d", &temp);
                 fever_function(temp);
                 break;
             case 2:
+                printf("\n");
                 cough_function(coughOption);
                 break;
             case 3:
                 Headache(HeadacheOption);
                 break;
             case 4:
+                printf("\n");
                 BloodPressure(bup, bpdown, height);
                 break;
             case 5:
@@ -288,15 +298,21 @@ void BloodPressure(int bpup, int bpdown, char height){
                 hospitals(input);
                 break;
             default:
+                printf("\n");
                 printf("Invalid option selected.\n");
         }
 
         printf("Thank you for consulting me as your health assistant!!\n");
         printf("Feel free to consult again!!\n");
-        printf("Do you want to get check on other symptoms? (y/n): \n");
+
+        printf("Do you want to get check on other symptoms? (y/n): ");
         scanf(" %c", &c);
+        printf("\n");
+        printf("\n");
+
 
     } while (c == 'y' || c == 'Y');
+
 
     return 0;
 
