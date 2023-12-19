@@ -15,7 +15,8 @@
 # Video Presentation:
 ###### [https://www.canva.com/design/DAF3aCVXsKA/xSLKlRIwH6ivKXfHOjZKrg/watch?utm_content=DAF3aCVXsKA&utm_campaign=designshare&utm_medium=link&utm_source=editor]
 ##### (Sir we made a video of 3 mins but it was not uploading hence we compressed it and uploaded it, which is why the time frame was also reduced)
-https://github.com/NUCES-Khi/pfproject-crafty-coders/assets/142867946/5b7530cc-9042-406f-a9b8-210cb9156dda
+https://github.com/NUCES-Khi/pfproject-crafty-coders/assets/142867946/1061d9ea-4cd0-4bbc-a268-159e0be3f517
+
 
 
 
